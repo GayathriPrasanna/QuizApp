@@ -133,3 +133,25 @@ h1 {
   color:#00ffff;
   font-family: Georgia;
 }
+
+.footer-bar {
+  width: 100%;
+  background-color: #0ff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  margin-bottom: 20px;
+  height: 40px;
+  text-align: center;
+  box-shadow: 0 0 15px #0ff;
+}
+
+.footer-bar p {
+  margin: 0;
+  color: #000;
+  font-weight: bold;
+  font-size: medium;
+}
